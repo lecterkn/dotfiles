@@ -24,7 +24,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ### Stow
 
 ```sh
+# Archlinux
 sudo pacman -S stow
+
+# MacOS
+brew install stow
 ```
 
 ## Installation

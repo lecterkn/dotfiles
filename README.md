@@ -2,6 +2,12 @@
 
 ## Requirements
 
+### OhMyZsh
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 ### NeoVim Packer
 
 ```sh
@@ -23,6 +29,16 @@ sudo pacman -S stow
 
 ## Installation
 
+### 1. Clone
+
 ```sh
+git clone git@github.com:lecterkn/dotfiles.git ~/dotfiles
+```
+
+### 2. Run Stow
+
+```sh
+cd ~/dotfiles
+
 stow .
 ```

@@ -15,6 +15,20 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+### tmux
+
+Archlinux
+
+```
+sudo pacman -S tmux
+```
+
+MacOS
+
+```
+brew install tmux
+```
+
 ### TPM
 
 ```sh
@@ -23,11 +37,15 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### Stow
 
-```sh
-# Archlinux
-sudo pacman -S stow
+Archlinux
 
-# MacOS
+```sh
+sudo pacman -S stow
+```
+
+MacOS
+
+```sh
 brew install stow
 ```
 

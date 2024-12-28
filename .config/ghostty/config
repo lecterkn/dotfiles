@@ -1,0 +1,15 @@
+# font
+font-family = "FiraCode Nerd Font Mono"
+font-size = 12
+
+# theme
+theme = catppuccin-mocha
+
+# background
+background = 000000
+background-opacity = 0.95
+background-blur-radius = 20
+
+# window
+window-theme = ghostty
+

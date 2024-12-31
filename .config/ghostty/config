@@ -13,3 +13,4 @@ background-blur-radius = 20
 # window
 window-theme = ghostty
 gtk-titlebar = false
+confirm-close-surface = false

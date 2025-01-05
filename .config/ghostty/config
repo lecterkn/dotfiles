@@ -1,7 +1,7 @@
 # font
 #font-family = "FiraCode Nerd Font Mono"
-#font-family = "JetBrains Mono Nerd"
-font-family = "HackNerdFontMono"
+font-family = "JetBrains Mono Nerd"
+#font-family = "HackNerdFontMono"
 font-size = 12
 
 # theme

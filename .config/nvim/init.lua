@@ -84,5 +84,8 @@ return require('packer').startup(function(use)
     }
 
     -- theme
+    use {
+        "xiyaowong/transparent.nvim",
+    }
     themes(use)
 end)

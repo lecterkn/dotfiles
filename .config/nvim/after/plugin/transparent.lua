@@ -1,0 +1,30 @@
+require("transparent").setup({
+    enable = true,
+    extra_groups = {
+        "NormalFloat",
+        "NvimTreeNormal",
+        "FloatBorder",
+        "LSPInfoBorder",
+        "NeoTreeNormal",
+        "NeoTreeNormalNC",
+        "NormalFloat",
+        "NotifyDEBUGBody",
+        "NotifyDEBUGBorder",
+        "NotifyERRORBody",
+        "NotifyERRORBorder",
+        "NotifyINFOBody",
+        "NotifyINFOBorder",
+        "NotifyTRACEBody",
+        "NotifyTRACEBorder",
+        "NotifyWARNBody",
+        "NotifyWARNBorder",
+        "TelescopeBorder",
+        "TelescopePreviewNormal",
+        "TelescopePromptNormal",
+        "TelescopeResultsNormal",
+        "WhichKeyFloat",
+    },
+    exclude = {},
+})
+local opts = { noremap = true, silent = true }
+vim.keymap.set('n', '<leader>tt', '<Cmd>TransparentToggle<CR>', opts)

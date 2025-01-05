@@ -1,7 +1,7 @@
 require("rose-pine").setup({
     disable_background = true,
     styles = {
-        -- bold = true,
+        bold = true,
         italic = false,
         transparency = true,
     }
@@ -13,7 +13,6 @@ require("gruvbox").setup({
 })
 
 require("tokyonight").setup({
-    transparent = false,
     terminal_colors = true,
     styles = {
         comments = { italic = false },
@@ -22,7 +21,10 @@ require("tokyonight").setup({
 })
 
 require("catppuccin").setup({
+    flavour = "mocha",
+    term_colors = true,
     transparent_background = true,
+    no_italic = true,
 })
 
 -- nord

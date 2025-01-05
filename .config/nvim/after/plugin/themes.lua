@@ -13,8 +13,11 @@ require("gruvbox").setup({
 })
 
 require("tokyonight").setup({
+    transparent = true,
     terminal_colors = true,
     styles = {
+        sidebars = "transparent",
+        floats = "transparent",
         comments = { italic = false },
         keywords = { italic = false },
     },

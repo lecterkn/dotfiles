@@ -6,6 +6,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # Paths for golang
 export GOPATH=$(go env GOPATH)
 export PATH=$PATH:$GOPATH/bin
+# Path for zig
+export PATH=$PATH:~/path/to/zig
 # config home
 export XDG_CONFIG_HOME="$HOME/.config"
 # input method

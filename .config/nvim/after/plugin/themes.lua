@@ -1,23 +1,23 @@
 require("rose-pine").setup({
-    -- disable_background = true,
+    disable_background = true,
     styles = {
         bold = true,
         italic = false,
-        -- transparency = true,
+        transparency = true,
     }
 })
 
 require("gruvbox").setup({
     terminal_colors = true,
-    -- transparent_mode = true,
+    transparent_mode = true,
 })
 
 require("tokyonight").setup({
-    -- transparent = true,
+    transparent = true,
     terminal_colors = true,
     styles = {
-        -- sidebars = "transparent",
-        -- floats = "transparent",
+        sidebars = "transparent",
+        floats = "transparent",
         comments = { italic = false },
         keywords = { italic = false },
     },
@@ -26,7 +26,7 @@ require("tokyonight").setup({
 require("catppuccin").setup({
     flavour = "mocha",
     term_colors = true,
-    -- transparent_background = true,
+    transparent_background = true,
     no_italic = true,
 })
 

@@ -44,7 +44,6 @@ return require('packer').startup(function(use)
     -- formatter
     use('nvimtools/none-ls.nvim')
     use('MunifTanjim/prettier.nvim')
-
     -- snippets
     use {
         'hrsh7th/cmp-nvim-lsp',

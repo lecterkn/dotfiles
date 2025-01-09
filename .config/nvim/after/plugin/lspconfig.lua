@@ -21,8 +21,17 @@ local handlers = {
                 },
             },
         })
-    end
+    end,
 }
+
+lspconfig.zls.setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    cmd = { "zls" },
+    filetypes = { "zig", "zir" },
+    root_dir = lspconfig.util.root_pattern("zls.json", "build.zig", ".git"),
+    single_file_support = true,
+})
 
 -- alt 1. Either pass handlers when setting up mason-lspconfig:
 -- require("mason-lspconfig").setup({ handlers = handlers })

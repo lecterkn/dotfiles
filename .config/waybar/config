@@ -25,6 +25,7 @@
             "escape": true
         },
         "clock": {
+            "timezone": "Asia/Tokyo",
             "format": "{:%Y/%m/%d %I:%M:%S %p} ",
             "interval": 1,   
             "tooltip-format": "<tt>{calendar}</tt>",

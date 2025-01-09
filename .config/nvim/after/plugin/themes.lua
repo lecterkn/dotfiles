@@ -1,7 +1,12 @@
 require("rose-pine").setup({
+    variant = "moon", -- main, moon or dawn
     disable_background = true,
+    extend_backgroundwbehind_borders = false,
+    enable = {
+        terminal = true,
+        legacy_highlights = false,
+    },
     styles = {
-        bold = true,
         italic = false,
         transparency = true,
     }
@@ -14,11 +19,11 @@ require("gruvbox").setup({
 
 require("tokyonight").setup({
     style = "night",
-    transparent = false,
+    transparent = true,
     terminal_colors = true,
     styles = {
-        -- sidebars = "transparent",
-        -- floats = "transparent",
+        sidebars = "transparent",
+        floats = "transparent",
         comments = { italic = false },
         keywords = { italic = false },
     },

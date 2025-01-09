@@ -7,9 +7,9 @@ font-size = 12
 font-feature = -dlig
 
 # theme
-theme = rose-pine-moon
+#theme = rose-pine-moon
 #theme = catppuccin-mocha
-#theme = tokyonight_night
+theme = tokyonight_night
 
 # background
 background = 000000

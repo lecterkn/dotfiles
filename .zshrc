@@ -10,6 +10,8 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/path/to/zig
 # config home
 export XDG_CONFIG_HOME="$HOME/.config"
+# .local/bin
+export PATH="$PATH:$HOME/.local/bin"
 # input method
 export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5

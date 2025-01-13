@@ -11,5 +11,6 @@ return function(use)
     use "EdenEast/nightfox.nvim"
     use { "catppuccin/nvim", as = "catppuccin" }
     use 'shaunsingh/nord.nvim'
-    use({ 'projekt0n/github-nvim-theme' })
+    use { 'projekt0n/github-nvim-theme' }
+    use { "vague2k/vague.nvim" }
 end

@@ -36,6 +36,10 @@ require("catppuccin").setup({
     no_italic = true,
 })
 
+require("vague").setup({
+    transparent = true, -- don't set background
+})
+
 -- nord
 vim.g.nord_disable_background = true
 vim.g.nord_italic = false

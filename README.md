@@ -1,5 +1,13 @@
 # dotfiles
 
+## Update
+
+neovim
+
+```sh
+git submodule update --remote
+```
+
 ## Requirements
 
 ### Stow

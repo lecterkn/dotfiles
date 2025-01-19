@@ -1,7 +1,6 @@
 # font
-font-family = "FiraCode Nerd Font Mono"
 #font-family = "FiraCode Nerd Font Mono"
-#font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "JetBrainsMono Nerd Font Mono"
 #font-family = "UbuntuMono Nerd Font"
 #font-family = "HackNerdFontMono"
 font-size = 12

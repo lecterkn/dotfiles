@@ -20,3 +20,14 @@ background-blur-radius = 20
 window-theme = ghostty
 gtk-titlebar = false
 confirm-close-surface = false
+
+#cursor
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+#keybind
+keybind = ctrl+shift+c=new_tab
+keybind = ctrl+shift+n=next_tab
+keybind = ctrl+shift+p=previous_tab
+keybind = ctrl+shift+s=toggle_tab_overview

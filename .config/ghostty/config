@@ -10,10 +10,12 @@ font-feature = -dlig
 theme = rose-pine-moon
 #theme = catppuccin-mocha
 #theme = tokyonight_night
+#theme = Dracula
+#theme = Kanagawa Wave
 
 # background
 background = 000000
-background-opacity = 0.94
+background-opacity = 0.9
 background-blur-radius = 20
 
 # window

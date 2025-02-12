@@ -129,3 +129,10 @@ plugins=(zsh-history-substring-search)
 # if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 #   exec tmux
 # fi
+
+# bun completions
+[ -s "/home/rimuru/.bun/_bun" ] && source "/home/rimuru/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

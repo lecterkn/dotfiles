@@ -136,3 +136,5 @@ plugins=(zsh-history-substring-search)
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias ls='ls -1G'

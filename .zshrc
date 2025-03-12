@@ -137,4 +137,7 @@ plugins=(zsh-history-substring-search)
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+#nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 alias ls='ls -1G'

@@ -4,14 +4,6 @@
 
 ### Stow
 
-Archlinux
-
-```sh
-sudo pacman -S stow
-```
-
-MacOS
-
 ```sh
 brew install stow
 ```
@@ -48,14 +40,24 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### tmux
 
-Archlinux
-
-```
-sudo pacman -S tmux
-```
-
-MacOS
-
 ```
 brew install tmux
+```
+
+### Sketchybar
+
+```sh
+brew install FelixKratz/formulae/sketchybar
+```
+
+### yabai
+
+```sh
+brew install koekeishiya/formulae/yabai
+```
+
+### skhd
+
+```sh
+brew install koekeishiya/formulae/skhd
 ```

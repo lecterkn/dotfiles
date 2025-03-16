@@ -56,6 +56,14 @@ brew install FelixKratz/formulae/sketchybar
 brew install koekeishiya/formulae/yabai
 ```
 
+#### SIP
+
+Syetem Integrity Protection should be disabled
+
+```sh
+csrutil status
+```
+
 ### skhd
 
 ```sh

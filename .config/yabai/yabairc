@@ -1,0 +1,51 @@
+# variables
+export YABAI_PADDING=6
+
+# load sa
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+# bsp or float (default: float)
+yabai -m config layout bsp
+# Override default layout for space 2 only
+
+# new window spawn right (first_child: spwan left, second_child: spawn right)
+yabai -m config window_placement second_child
+
+# set padding for sketchybar(height: 34)
+yabai -m config external_bar main:34:0
+# set paddings
+yabai -m config top_padding    $YABAI_PADDING
+yabai -m config bottom_padding $YABAI_PADDING
+yabai -m config left_padding   $YABAI_PADDING
+yabai -m config right_padding  $YABAI_PADDING
+yabai -m config window_gap     $YABAI_PADDING
+
+
+# window shadow
+yabai -m config window_shadow float
+# window opacity
+yabai -m config window_opacity off
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 0.7
+# window border
+yabai -m config window_border on
+yabai -m config window_border_width 4
+yabai -m config window_border_radius 0.0
+yabai -m config active_window_border_color 0xff775759
+yabai -m config normal_window_border_color 0xff505050
+
+# menubar 
+yabai -m config menubar_opacity 1.0
+
+# space
+for i in {1..9}
+do
+    yabai -m space --create
+done
+
+# rules
+yabai -m rule --add app="^System Preferences$" manage=off
+
+# borders
+borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=5.0 &

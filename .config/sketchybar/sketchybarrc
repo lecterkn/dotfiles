@@ -20,7 +20,7 @@ sketchybar --bar \
     height=28 \
     corner_radius=8 \
     blur_radius=20 \
-    color=0x40000000
+    color=0x90000000
 
 ##### Changing Defaults #####
 # We now change some default values, which are applied to all further items.
@@ -28,10 +28,10 @@ sketchybar --bar \
 # https://felixkratz.github.io/SketchyBar/config/items
 
 default=(
-  padding_left=5
-  padding_right=5
-  icon.font="SF Pro:Semibold:13.0"
-  label.font="SF Pro:Semibold:13.0"
+  padding_left=4
+  padding_right=4
+  icon.font="SF Pro:Semibold:14.0"
+  label.font="SF Pro:Semibold:14.0"
   icon.color=0xffffffff
   label.color=0xffffffff
   icon.padding_left=4

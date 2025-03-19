@@ -9,7 +9,10 @@ shift + alt - h : yabai -m window --warp west
 shift + alt - l : yabai -m window --warp east
 
 # fullscreen & padding
-alt - f : yabai -m window --toggle zoom-fullscreen && yabai -m space --toggle padding
+#alt - f : yabai -m window --toggle zoom-parent
+#alt - f : yabai -m window --toggle zoom-fullscreen
+alt - f : yabai -m window --toggle windowed-fullscreen
+#alt - f : yabai -m window --toggle windowed-fullscreen && yabai -m space --toggle padding
 
 # move window to prev and next space
 shift + alt - p : yabai -m window --space prev

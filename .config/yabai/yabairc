@@ -27,13 +27,17 @@ yabai -m config window_shadow float
 # window opacity
 yabai -m config window_opacity off
 yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.7
+yabai -m config normal_window_opacity 0.8
 # window border
-yabai -m config window_border on
-yabai -m config window_border_width 4
-yabai -m config window_border_radius 0.0
-yabai -m config active_window_border_color 0xff775759
-yabai -m config normal_window_border_color 0xff505050
+# yabai -m config window_border on
+# yabai -m config window_border_width 4
+# yabai -m config window_border_radius 0.0
+# yabai -m config active_window_border_color 0xff775759
+# yabai -m config normal_window_border_color 0xff505050
+
+#animations
+yabai -m config window_animation_duration 0.0
+yabai -m config window_animation_easing ease_out_quart
 
 # menubar 
 yabai -m config menubar_opacity 1.0
@@ -46,6 +50,3 @@ done
 
 # rules
 yabai -m rule --add app="^System Preferences$" manage=off
-
-# borders
-borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=5.0 &

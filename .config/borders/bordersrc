@@ -6,7 +6,7 @@ options=(
 	width=4.0
 	hidpi=on
     ax_focus=on
-	active_color=gradient(top_left=0xAARRGGBB,bottom_right=0xAARRGGBB) gradient(top_right=0xAARRGGBB,bottom_left=0xAARRGGBB) glow(0xAARRGGBB)
+	active_color=gradient(top_left=0xAARRGGBB,bottom_right=0xAARRGGBB)
 	inactive_color=0xff414550
 )
 

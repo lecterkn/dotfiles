@@ -7,15 +7,15 @@ font-size = 15
 font-feature = -dlig
 
 # theme
-theme = rose-pine-moon
-#theme = catppuccin-mocha
+#theme = rose-pine-moon
+theme = catppuccin-mocha
 #theme = tokyonight_night
 #theme = Dracula
 #theme = Kanagawa Wave
 #theme = Kanagawa Dragon
 
 # background
-background = 000000
+#background = 000000
 background-opacity = 0.9
 background-blur-radius = 20
 

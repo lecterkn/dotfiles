@@ -21,23 +21,24 @@ yabai -m config left_padding   $YABAI_PADDING
 yabai -m config right_padding  $YABAI_PADDING
 yabai -m config window_gap     $YABAI_PADDING
 
+#animations
+yabai -m config window_animation_duration 0.5
+yabai -m config window_animation_easing ease_out_expo
 
-# window shadow
+# window shadow (float, off, on)
 yabai -m config window_shadow float
 # window opacity
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.9
+# window zoom
+yabai -m config window_zoom_persist on
 # window border
 # yabai -m config window_border on
 # yabai -m config window_border_width 4
 # yabai -m config window_border_radius 0.0
 # yabai -m config active_window_border_color 0xff775759
 # yabai -m config normal_window_border_color 0xff505050
-
-#animations
-yabai -m config window_animation_duration 0.0
-yabai -m config window_animation_easing ease_out_quart
 
 # menubar 
 yabai -m config menubar_opacity 1.0

@@ -44,9 +44,11 @@ yabai -m config window_zoom_persist on
 yabai -m config menubar_opacity 1.0
 
 # space
-for i in {1..9}
-do
-    yabai -m space --create
+MAX_SPACES=7
+current_spaces=$(yabai -m query --spaces | jq 'length')
+while [ "$current_spaces" -lt "$MAX_SPACES" ]; do
+  yabai -m space --create
+  current_spaces=$((current_spaces + 1))
 done
 
 # rules

@@ -6,9 +6,13 @@ options=(
 	width=3.0
 	hidpi=on
     ax_focus=on
-    # AARRGGBB
-	active_color="gradient(top_left=0xff89b4fa,bottom_right=0xff89b4fa)"
-	inactive_color=0xff414550
+    # catppuccin
+	#active_color="gradient(top_left=0xff89b4fa,bottom_right=0xff89b4fa)"
+    # hyprland
+	active_color="gradient(top_left=0xffccffee,bottom_right=0xffff99ee)"
+    inactive_color=0xff414550
+    # hyprland
+	#inactive_color=0xff444444
 )
 
 borders "${options[@]}"

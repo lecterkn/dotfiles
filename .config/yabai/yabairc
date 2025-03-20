@@ -22,7 +22,7 @@ yabai -m config right_padding  $YABAI_PADDING
 yabai -m config window_gap     $YABAI_PADDING
 
 #animations
-yabai -m config window_animation_duration 0.5
+yabai -m config window_animation_duration 0.6
 yabai -m config window_animation_easing ease_out_expo
 
 # window shadow (float, off, on)

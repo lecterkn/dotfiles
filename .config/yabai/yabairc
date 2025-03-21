@@ -1,5 +1,5 @@
 # variables
-export YABAI_PADDING=6
+export YABAI_PADDING=8
 
 # load sa
 sudo yabai --load-sa
@@ -22,6 +22,7 @@ yabai -m config right_padding  $YABAI_PADDING
 yabai -m config window_gap     $YABAI_PADDING
 
 #animations
+yabai -m config window_opacity_duration 0.3
 yabai -m config window_animation_duration 0.6
 yabai -m config window_animation_easing ease_out_expo
 
@@ -53,7 +54,9 @@ done
 
 # rules
 yabai -m rule --add app="^System Preferences$" manage=off
-#yabai -m signal --add event=window_created action="sh ~/.config/yabai/plugins/move_to_unused_space.sh"
+yabai -m signal --add event=window_created action="sh ~/.config/yabai/plugins/move_to_unused_space.sh"
+yabai -m signal --add event=space_changed action="sh ~/.config/yabai/plugins/focus_current_space_window.sh"
+#yabai -m signal --add event=space_changed action="sh ~/.config/yabai/plugins/another_space_window_opacity.sh"
 
 # window borders
 borders

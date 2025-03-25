@@ -54,7 +54,7 @@ done
 
 # rules
 yabai -m rule --add app="^System Preferences$" manage=off
-yabai -m signal --add event=window_created action="sh ~/.config/yabai/plugins/move_to_unused_space.sh"
+#yabai -m signal --add event=window_created action="sh ~/.config/yabai/plugins/move_to_unused_space.sh"
 yabai -m signal --add event=space_changed action="sh ~/.config/yabai/plugins/focus_current_space_window.sh"
 #yabai -m signal --add event=space_changed action="sh ~/.config/yabai/plugins/another_space_window_opacity.sh"
 

@@ -89,7 +89,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history)
+plugins=(git history zsh-history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,12 +123,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # 
 # Plugins
-plugins=(zsh-history-substring-search)
-
-# tmux autorun
-# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#   exec tmux
-# fi
 
 # bun completions
 [ -s "/home/rimuru/.bun/_bun" ] && source "/home/rimuru/.bun/_bun"

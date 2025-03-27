@@ -22,8 +22,8 @@ yabai -m config right_padding  $YABAI_PADDING
 yabai -m config window_gap     $YABAI_PADDING
 
 #animations
-yabai -m config window_opacity_duration 0.3
-yabai -m config window_animation_duration 0.6
+yabai -m config window_opacity_duration 0.0
+yabai -m config window_animation_duration 0.0
 yabai -m config window_animation_easing ease_out_expo
 
 # window shadow (float, off, on)
@@ -31,7 +31,7 @@ yabai -m config window_shadow off
 # window opacity
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.9
+yabai -m config normal_window_opacity 1.0
 # window zoom
 yabai -m config window_zoom_persist on
 # window border

@@ -142,4 +142,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
+#rust
+export PATH=$HOME/.cargo/bin:$PATH
+
 alias ls='ls -1G'

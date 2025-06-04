@@ -15,7 +15,7 @@ theme = catppuccin-mocha
 #theme = Kanagawa Dragon
 
 # background
-#background = 000000
+background = 000000
 background-opacity = 0.9
 background-blur-radius = 20
 

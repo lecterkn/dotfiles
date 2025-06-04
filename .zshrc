@@ -16,6 +16,7 @@ export PATH="$PATH:$HOME/.local/bin"
 export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
 export XMODIFIERS=@im=fcitx5
+export DOCKER_BUILDKIT=1
 
 alias vi=vim
 
@@ -146,3 +147,7 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 export PATH=$HOME/.cargo/bin:$PATH
 
 alias ls='ls -1G'
+source ~/.env
+
+# Added by Windsurf
+export PATH="/Users/lecter/.codeium/windsurf/bin:$PATH"

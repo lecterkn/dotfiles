@@ -1,3 +1,4 @@
 .tmux/*
+.env
 
 !.tmux/.gitkeep

@@ -90,7 +90,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history zsh-history-substring-search)
+plugins=(git history )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,17 +131,6 @@ source $ZSH/oh-my-zsh.sh
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-# homebrew
-export HOMEBREW_NO_INSTALL_CLEANUP=true
-export HOMEBREW_NO_ENV_HINTS=true
-
-#nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-#sdkman
-export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
 #rust
 export PATH=$HOME/.cargo/bin:$PATH
